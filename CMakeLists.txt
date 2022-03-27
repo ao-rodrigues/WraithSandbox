@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(external/WraithEngine)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME} src/Main.cpp)
 
 target_link_libraries(${PROJECT_NAME} WraithEngine)
 target_include_directories(${PROJECT_NAME} PRIVATE WraithEngine)

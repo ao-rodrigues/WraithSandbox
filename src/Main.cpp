@@ -1,20 +1,16 @@
 //
-// Created by andro on 28/03/2022.
+// Created by Andre Rodrigues on 28/03/2022.
 //
 
 #include <iostream>
 #include <WraithEngine/Application.h>
 
-int main()
-{
+int main() {
     Wraith::Application app(800, 600, "Wraith Engine Demo");
 
-    try
-    {
+    try {
         app.Run();
-    }
-    catch (const std::exception& e)
-    {
+    } catch (const std::exception& e) {
         std::cout << e.what() << '\n';
         return EXIT_FAILURE;
     }

@@ -78,6 +78,7 @@ fabric.properties
 
 .idea/
 
+.vs/
 
 .cache/
 compile_commands.json

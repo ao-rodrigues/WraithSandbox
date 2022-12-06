@@ -6,7 +6,7 @@
 #include <Wraith/Application.h>
 
 int main() {
-    Wraith::Application app(800, 600, "Wraith Engine Demo");
+    Wraith::Application app(1920, 1080, "Wraith Engine Demo");
 
     try {
         app.Run();

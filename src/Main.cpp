@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include <WraithEngine/Application.h>
+#include <Wraith/Application.h>
 
 int main() {
     Wraith::Application app(800, 600, "Wraith Engine Demo");
